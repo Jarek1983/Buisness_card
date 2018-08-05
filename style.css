@@ -35,12 +35,11 @@ body
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-
 .menu_style
 {
 	float: left;
-	margin-right: 10px;
-	margin-left: 10px;
+	padding-right: 5px;
+	padding-left: 8px;
 	text-align: center;
 	text-decoration: none;
 }
@@ -49,7 +48,6 @@ body
 	text-align: center;
 	text-shadow: 1px 1px #FFFF66;
 }
-
 #photos
 {
 padding-top: 20px;
@@ -57,4 +55,8 @@ padding-top: 20px;
 .photo
 {
 	display: inline;
+}
+a:hover 
+{
+	transform: rotate(10deg);
 }
