@@ -10,6 +10,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 	<title>Jarosław Żmijewski - statystyk siatkarski</title>
 	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/photo.css" type="text/css" />
 	<link rel="stylesheet" href="css/fontello.css" type="text/css" />
 	<link href='http://fonts.googleapis.com/css?family=Lato|Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>	
 </head>
@@ -26,7 +27,7 @@
 					<a href="index.html" class="menu_style" style="color: #FFFFCC; cursor: progress">Strona Główna</a>
 				</div>
 				<div>
-					<a href="Ppis.html" class="menu_style" style="color: #CCFF33; cursor: grab">O mnie </a>
+					<a href="Opis.html" class="menu_style" style="color: #CCFF33; cursor: grab">O mnie </a>
 				</div>
 				<div>
 					<a href="Statystyka.html" class="menu_style" style="color: #CCFFCC; cursor: crosshair">Statystyka</a>
@@ -48,18 +49,43 @@
 				<div style="clear:both;"></div>
 			</nav>
 		</div>
+		<div style="text-align:center">
+  <h2>Poznaj mnie!</h2>
+  <p>Kliknij zdjęcie!</p>
+</div>
 
-		<div id="photos">
-			<div class="photo">
-				<img src="image/photo1.jpg" alt="HTML i CSS" width="33%" height="300px">
-			</div>
-			<div class="photo">
-				<img src="image/photo2.jpg" alt="Statystyka" width="33%" height="300px">
-			</div>
-			<div class="photo">
-				<img src="image/photo3.jpg" alt="Ruby on Rails" width="33%" height="300px">
-			</div>
-		</div>
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="image/pekin.jpg" alt="Pekin" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="image/louyang.jpg" alt="Louyang" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img_mountains.jpg" alt="Mountains" style="width:100px" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img_lights.jpg" alt="Lights" style="width:100px" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:50%">
+  <div id="imgtext"></div>
+</div>
+
+<script>
+function myFunction(imgs) {
+    var expandImg = document.getElementById("expandedImg");
+    var imgText = document.getElementById("imgtext");
+    expandImg.src = imgs.src;
+    imgText.innerHTML = imgs.alt;
+    expandImg.parentElement.style.display = "block";
+}
+</script>
+
 	</div>
 	<footer id="footer">
 		<p>Strona w sieci od 2018 r. &copy; Wszelkie prawa zastrzeżone</p>
