@@ -1,0 +1,60 @@
+body
+{
+	background-color: #303030;
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#nav
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 100%;
+}
+
+#main_menu
+{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	letter-spacing: 3px;
+	word-spacing: 2px;
+}
+#menu 
+{
+	border: 50px solid;
+	border-radius: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.menu_style
+{
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+#footer
+{
+	text-align: center;
+	text-shadow: 1px 1px #FFFF66;
+}
+
+#photos
+{
+padding-top: 20px;
+}
+.photo
+{
+	display: inline;
+}
