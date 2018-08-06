@@ -1,0 +1,50 @@
+#about
+{
+	width: 100%;
+}
+.description
+{
+	width: 100%;
+}
+.study
+{
+	float: left;
+	width: 300px;
+}
+.work
+{
+	float: left;
+	width: 300px;
+}
+.course
+{
+	float: left;
+	width: 300px;
+}
+h3
+{
+	text-align: center;
+}
+.color
+{
+	color: #99FFCC;
+	font-style: italic;
+	font-size: 17px;
+	line-height: 14px;
+	text-align: right;
+}
+.light
+{
+	color: #FFFF66;
+	font-style: italic;
+	font-size: 17px;
+	line-height: 14px;
+	text-align: left;
+}
+.teach
+{
+	font-family: Times Roman;
+	font-style: italic;
+	font-size: 18px;
+	color: #6699CC;
+}
