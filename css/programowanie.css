@@ -1,0 +1,28 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  width: 100%;
+}
+.grid-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+img
+{
+	width: 250px;
+	height: 250px;
+}
+h1
+{
+	text-align: center;
+	letter-spacing: 2px;
+	font-style: italic;
+}
+.CV
+{
+	text-decoration: none;
+	color:red;
+}
