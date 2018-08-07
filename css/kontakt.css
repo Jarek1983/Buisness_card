@@ -125,3 +125,12 @@ input:focus:-ms-input-placeholder
 {
     color: #428C42;
 }
+.menu_style
+{
+	float: left;
+	padding-right: 8px;
+	padding-left: 18px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 19px;
+}

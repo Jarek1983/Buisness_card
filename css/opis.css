@@ -48,3 +48,43 @@ h3
 	font-size: 18px;
 	color: #6699CC;
 }
+.one
+{
+	text-align: center;
+	font-style: italic;
+	font-size: 18px;
+	font-weight: bold;
+}
+.me
+{
+	text-align: justify;
+	word-spacing: 2px;
+	text-indent: 30px;
+}
+strong
+{
+	font-style: italic;
+}
+.it
+{
+	color: #DAA520;
+}
+
+.menu_style_desc
+{
+	float: left;
+	padding-right: 8px;
+	padding-left: 18px;
+	text-align: center;
+	text-decoration: none;
+	background-color: black;	
+}
+#must
+{
+	position: fixed;
+	width: 100%;
+}
+
+
+
+
